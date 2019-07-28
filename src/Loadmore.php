@@ -7,6 +7,13 @@ use Illuminate\Pagination\LengthAwarePaginator;
 
 trait Loadmore
 {
+    /**
+     * Prepare a loadmore pagination.
+     *
+     * @param integer $initial
+     * @param integer $loadMore
+     * @return \Illuminate\Pagination\LengthAwarePaginator
+     */
     public function loadmore($initial = 4, $loadMore = 16)
     {
         $page = (int) Paginator::resolveCurrentPage();
@@ -24,6 +31,14 @@ trait Loadmore
         );
     }
 
+    /**
+     * Scope a query to match loadmore style.
+     *
+     * @param \Illuminate\Database\Eloquent\Builder $query
+     * @param integer $initial
+     * @param integer $loadMore
+     * @return \Illuminate\Database\Eloquent\Builder
+     */
     public function scopeLoadmore($query, $initial = 4, $loadMore = 16)
     {
         return $this->loadmore($initial, $loadMore);
