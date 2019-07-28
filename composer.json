@@ -1,0 +1,54 @@
+{
+    "name": "mohamedsabil83/laravel-loadmore",
+    "description": "Allow pagination to load an initial number of items on the first page and subsequent pages can load a different number of items",
+    "keywords": [
+        "mohamedsabil83",
+        "laravel-loadmore",
+        "pagination"
+    ],
+    "homepage": "https://github.com/mohamedsabil83/laravel-loadmore",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Mohamed Sabil",
+            "email": "me@mohamedsabil83.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "illuminate/support": "5.8.*"
+    },
+    "require-dev": {
+        "orchestra/testbench": "3.8.*",
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mohamedsabil83\\LaravelLoadmore\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Mohamedsabil83\\LaravelLoadmore\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mohamedsabil83\\LaravelLoadmore\\LaravelLoadmoreServiceProvider"
+            ],
+            "aliases": {
+                "LaravelLoadmore": "Mohamedsabil83\\LaravelLoadmore\\LaravelLoadmoreFacade"
+            }
+        }
+    }
+}
