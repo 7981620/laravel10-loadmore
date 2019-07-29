@@ -3,7 +3,8 @@
     "description": "Allow pagination to load an initial number of items on the first page and subsequent pages can load a different number of items",
     "keywords": [
         "mohamedsabil83",
-        "laravel-loadmore",
+        "laravel",
+        "loadmore",
         "pagination"
     ],
     "homepage": "https://github.com/mohamedsabil83/laravel-loadmore",
@@ -40,15 +41,5 @@
     },
     "config": {
         "sort-packages": true
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Mohamedsabil83\\LaravelLoadmore\\LaravelLoadmoreServiceProvider"
-            ],
-            "aliases": {
-                "LaravelLoadmore": "Mohamedsabil83\\LaravelLoadmore\\LaravelLoadmoreFacade"
-            }
-        }
     }
 }
