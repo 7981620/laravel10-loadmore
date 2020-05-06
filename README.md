@@ -5,7 +5,7 @@
 [![Quality Score](https://img.shields.io/scrutinizer/g/mohamedsabil83/laravel-loadmore.svg?style=flat-square)](https://scrutinizer-ci.com/g/mohamedsabil83/laravel-loadmore)
 [![Total Downloads](https://img.shields.io/packagist/dt/mohamedsabil83/laravel-loadmore.svg?style=flat-square)](https://packagist.org/packages/mohamedsabil83/laravel-loadmore)
 
-A trait for Laravel pagination that allows you to retrieve an initial number of items in the first page and a different number of items on subsequent pages.
+A trait for Laravel 5.8+ pagination that allows you to retrieve an initial number of items in the first page and a different number of items on subsequent pages.
 
 ## Installation
 
