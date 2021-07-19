@@ -2,6 +2,11 @@
 
 All notable changes to `laravel-loadmore` will be documented in this file
 
+## v0.5.0 - 2021-07-19
+
+- Support Laravel 8.x
+- Support PHP 8
+
 ## v0.4.0 - 2020-05-07
 
 - Add Laravel 7.x compatibility
