@@ -1,6 +1,6 @@
 <?php
 
-namespace Mohamedsabil83\LaravelLoadmore;
+namespace Agenta\LaravelLoadmore;
 
 use Illuminate\Pagination\Paginator;
 use Illuminate\Pagination\LengthAwarePaginator;
