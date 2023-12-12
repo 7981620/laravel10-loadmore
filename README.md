@@ -6,7 +6,7 @@
 You can install the package via composer:
 
 ```bash
-composer require 7981620/laravel-loadmore
+composer require agenta/laravel10-loadmore
 ```
 
 ## Usage
