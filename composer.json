@@ -1,5 +1,5 @@
 {
-    "name": "7981620/laravel10-loadmore",
+    "name": "agenta/laravel10-loadmore",
     "description": "Allow pagination to load an initial number of items on the first page and subsequent pages can load a different number of items",
     "keywords": [],
     "homepage": "https://github.com/7981620/laravel10-loadmore",
